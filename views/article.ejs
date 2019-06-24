@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="En basal kodebase til nodejs/express projekter">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+	<div>
+		
+			<h1>Cms test</h1>
+	</div>
+
+	<div class="Bignav">
+		<nav>
+			<ul>
+				<a href="/"><li>Home</li></a>
+				<a href="/book"><li>Text</li></a>
+				<a href="/article"><li>Article</li></a>
+				<!--<a href="/Nyheder"><li>Nyeder</li></a>	
+				<a href="/om_os"><li>Om os</li></a>  --> 
+			</ul>
+		</nav>
+	</div>
+	
+	<div class="search-container">
+		<form action="/soeg" method="GET">
+			<input type="text" placeholder="Search.." name="search">
+			<button type="submit">Søg</button>
+		</form>
+	</div>
+			
+</header>
+
+<main>
+<% results.forEach(result => { %>
+    
+        <th></th>
+        
+        
+            <tr><br> <%= result.article %></tr>
+            <br>
+            
+            
+
+
+<% }); %> 
+    
+
+</main>
+
+
+	
+	</body>
+	</html>
+			
+				
+	<% include partials/footer %>
+			
+			
+
+			
+				
+			
+			
+			

@@ -1,0 +1,140 @@
+
+body{
+    background-color: aliceblue;
+}
+
+header, h1{
+    color: #af2e5f;
+    font-size: 30px;
+}
+
+
+header , span{
+    color: black;
+    font-size: 20px;
+    }
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Bignav ul{
+    list-style: none;
+    
+}
+
+
+.Bignav li{
+    float: left;
+}
+
+.Bignav a{
+    color: black;
+}
+
+.Bignav a li {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+ ul{
+    list-style: none;
+
+    
+}
+
+li{
+    margin-top: 10px;
+}
+
+ a{
+    color: blue;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+
+  img{
+      width: 20%;
+  }
+
+  .logout{
+      float: right;
+  }
+
+
+.search-container{
+    display: block;
+    color: black;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.search-container input[type=text] {
+padding: 5px;
+margin-top: 2px;
+font-size: 17px;
+border: none;
+}
+
+.search-container button{
+cursor: pointer;
+border: none;
+cursor: pointer;
+padding: 5px 8px;
+
+}
+
+.search-container button:hover{
+background-color: #ccc;
+}
+
+.search-container input[type=text]{
+border: 1px solid #ccc; 
+
+}
+
+.main_text{
+  width: 70%;  
+}
+
+
+/*-----------------*/
+
+
+
+  tr {
+    margin: .5em 1em;
+      padding: 14em !important; 
+    }
+  
+/*-----------------*/
+
+  /*.style_for_events{
+      margin-top: 70px;
+      margin-bottom: -55px;
+  }*/
+  
+.rwd-table{
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+footer{
+    clear: both;
+}
